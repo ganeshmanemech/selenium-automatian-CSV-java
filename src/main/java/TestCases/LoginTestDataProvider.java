@@ -1,11 +1,11 @@
-package TestCases;
+package testCases;
 
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import Pages.LoginPage;
 import common.IInvokedMethodImpl;
 import common.WebBase;
+import pages.LoginPage;
 
 @Listeners(IInvokedMethodImpl.class)
 public class LoginTestDataProvider extends WebBase {
