@@ -26,7 +26,7 @@ public class LoginPage {
 	
 	public LoginPage() {
 		PageFactory.initElements(WebDriverFactory.localchrome.get(), this);
-		wait=new WebDriverWait(WebDriverFactory.localchrome.get(), 30);
+		wait=new WebDriverWait(WebDriverFactory.localchrome.get(), 20);
 	}
 	
 	public HomePage loginMethod(String user,String pass) {
